@@ -17,8 +17,9 @@ ScriptedImporter:
     generateAllOutputs: 0
     generateMipMaps: 1
     preset: " <sbspreset pkgurl=\"pkg://Marble_05\" label=\"\" >\n  <presetinput
-      identifier=\"$outputsize\" uid=\"3177830503\" type=\"8\" value=\"9,9\" />\n
-      </sbspreset>\n"
+      identifier=\"$outputsize\" uid=\"3177830503\" type=\"8\" value=\"12,12\" />\n 
+      <presetinput identifier=\"roughness_value\" uid=\"3437144072\" type=\"0\" value=\"1\"
+      />\n </sbspreset>\n"
     shaderName: Universal Render Pipeline/Lit
     materialProperties:
       shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
@@ -26,7 +27,7 @@ ScriptedImporter:
       lightmapFlags: 4
       enableInstancingVariants: 0
       doubleSidedGI: 0
-      customRenderQueue: -1
+      customRenderQueue: 2000
       texEnvs:
       - name: _BaseMap
         texture: {fileID: 3645223728569853701, guid: 1ed4cd3884828464fb8dd879a8e73cf1, type: 3}
@@ -227,19 +228,11 @@ ScriptedImporter:
     - label: Default
       bOverride: 0
       bLockRatio: 1
-      textureWidth: 512
-      textureHeight: 512
+      textureWidth: 4096
+      textureHeight: 4096
       textureFormatMode: 0
       normalCompressed: 0
       bGenerateOnLoad: 1
-    - label: Default
-      bOverride: 0
-      bLockRatio: 1
-      textureWidth: 512
-      textureHeight: 512
-      textureFormatMode: 0
-      normalCompressed: 0
-      bGenerateOnLoad: 0
     material: {fileID: 8131249134662423963, guid: 1ed4cd3884828464fb8dd879a8e73cf1, type: 3}
     generatedTextures:
     - {fileID: 3645223728569853701, guid: 1ed4cd3884828464fb8dd879a8e73cf1, type: 3}
