@@ -26,7 +26,7 @@ public class PlayerMovementOld : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
         horizontal = Input.GetAxis("Horizontal");
         if (horizontal != 0)
